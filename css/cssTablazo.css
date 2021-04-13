@@ -1,0 +1,25 @@
+
+.tamanoImagen {
+ height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+.imgTumbai {
+ width: 140px;
+height: 140px;
+}
+ 
+ #mensajePrincipal {
+background-color: #1860e2;
+color: white;
+border-style: solid;
+border-color: #080fef;
+border-width: 10px;
+margin: 15px;
+padding: 15px;
+}
+h1 {
+  text-align: center;
+}
+
