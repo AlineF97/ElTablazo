@@ -1,4 +1,4 @@
-body{ background-color: rgb(189, 94, 94);
+body{ background-color: rgb(159, 209, 243);
 }
 
 .tamanoImagen {
@@ -7,12 +7,9 @@ body{ background-color: rgb(189, 94, 94);
     max-width: 300px; 
     max-height: 300px;
 }
-.imgTumbai {
- width: 140px;
-height: 140px;
-}
+
  
- #mensajePrincipal {
+ #mensajeFinal {
 background-color: #1860e2;
 color: white;
 border-style: solid;
