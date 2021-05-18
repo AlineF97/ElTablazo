@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/carousel.css" rel="stylesheet">
+        <link href="css/mycss.css" rel="stylesheet">
+        
+        <title>El Tablazo</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="mediterranea.html">Tabla Maditerranea</a></li>
+                        <li><a class="dropdown-item" href="griega.html">Tabla Griega</a></li>            
+                        <li><a class="dropdown-item" href="tropical.html">Tabla Tropical</a></li>
+                        </ul>
+                        </li> 
+                        <li class="nav-item">
+                        <a class="nav-link" href="QuienesSomos.html" tabindex="-1">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="FormContacto.html" tabindex="-1">Contacto</a>
+                          </li>
+                    </ul>
+                    
+                    </div>
+                </div>
+                </nav>
+        </header>
+
+        <main>
+            <h1></h1>
+            <h1>Contacto</h1>
+
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-6">
+                <img src="imagenes/contact.png" width="480" height="480" alt="IMGContacto">
+            </div>
+            <div class= "col-sm-6">
+                <form>
+                    <div class="form-group">
+                      <label for="inputRun">RUN</label>
+                      <input type="text" class="form-control" id="inputRun" placeholder="Ingrese su rut sin punto ni guion">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputNombre">Nombre </label>
+                        <input type="text" class="form-control" id="inputNombre" placeholder="Nombre Apellido">
+                      </div>
+                    <div class="form-group">
+                        <label for="inputEdad">Edad</label>
+                        <input type="text" class="form-control" id="inputRun" placeholder="Ingrese su edad">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Correo</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputCel">Telefono</label>
+                        <input type="text" class="form-control" id="inputCel" placeholder="Numero de contacto">
+                    </div>
+                    <div class="form-group">
+                        <label for="motivoSelect1">Motivo</label>
+                        <select class="form-control" id="motivoSelect1">
+                            <option>--Seleccione--</option>
+                            <option>Solicitud</option>
+                            <option>Cotizar</option>
+                            <option>Sugerencia</option>
+                            <option>Reclamo</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="comentarioTextarea1">Comentario</label>
+                      <textarea class="form-control" id="comentarioTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                      </div>
+                  </form>
+            </div>  
+            </div>  
+        </div>
+
+        </main>
+
+    </body>
+</html>
