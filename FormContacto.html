@@ -144,14 +144,14 @@
                 var txtRun = $("#inputRun").val();
 
                 if (txtRun != '') {
-                    var toText = txtRun.toString();//para convertir a string 
-                    var lastChar = toText.slice(-1); //obtener el ultimo caracter
-                    var cadenaSinUltimoCaracter = txtRun.substring(0, txtRun.length - 1);//obtener la cadena sin el ultimo caracter
-                    console.log(lastChar);
-                    $.get("https://api.libreapi.cl/rut/digit?rut=" + cadenaSinUltimoCaracter, function (data) {
+                    var RunText = txtRun.toString();//para convertir a string 
+                    var digito = RunText.slice(-1); //obtener el ultimo caracter
+                    var runsindigito = txtRun.substring(0, txtRun.length - 1);//obtener la cadena sin el ultimo caracter
+                    console.log(digito);
+                    $.get("https://api.libreapi.cl/rut/digit?rut=" + runsindigito, function (data) {
                         console.log(data);
                         if (data.status == "success") {
-                            if (data.data.digit == lastChar) {
+                            if (data.data.digit == digito) {
                                 return true;
                             } else {
                                 return false;
